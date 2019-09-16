@@ -1,12 +1,20 @@
 <!DOCTYPE html>
+<?php
+header('Cache-Control: no-cache, no-store, must-revalidate');
+header('Pragma: no-cache');
+header('Expires: 0');
+?>
 <html>
 
     <head>
+        <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+        <meta http-equiv="Pragma" content="no-cache" />
+        <meta http-equiv="Expires" content="0" />
         <meta charset="utf-8">
         <title>JQUERY</title>
         <link rel="stylesheet" href="css/style.css">
     </head>
-    <body>        
+    <body>
         <div id="container">
             <p>quis nostrum exercitationem ullam corporis suscipit laboriosam</p>
         </div>
@@ -32,4 +40,3 @@
         <script src="js/script.js"></script>
     </body>
 </html>
-        
